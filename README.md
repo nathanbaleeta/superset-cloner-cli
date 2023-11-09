@@ -43,7 +43,7 @@ SESSION_COOKIE_SECURE=false
 SESSION_COOKIE_HTTPONLY=false
 ```
 
-Navigate back to the root and run the docker compose commands as below:
+Navigate back to the superset root directory and run the docker compose commands as below:
 ```
 cd ../
 TAG=2.1.0 docker compose -f docker-compose-non-dev.yml pull
