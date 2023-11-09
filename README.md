@@ -26,7 +26,7 @@ Then switch to the docker directory and update the environment variables as belo
 ```
 SUPERSET_ENV=production
 SUPERSET_LOAD_EXAMPLES=yes
-SUPERSET_SECRET_KEY='BEN6Gx+TEXT_SUPERSET_SECRET_KEY'
+SUPERSET_SECRET_KEY='TEXT_SUPERSET_SECRET_KEY'
 CYPRESS_CONFIG=false
 SUPERSET_PORT=8088
 MAPBOX_API_KEY=''
