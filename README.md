@@ -21,7 +21,7 @@ Edit the file ```docker-compose-non-dev.yml``` and update the key ```x-superset-
 ```
 x-superset-image: &superset-image apache/superset:2.1.0
 ```
-Then switch to the docker directory and update the environment variables as below:
+Then switch to the docker directory and update the environment variables in ```.env-non-dev``` file as below:
 
 ```
 SUPERSET_ENV=production
