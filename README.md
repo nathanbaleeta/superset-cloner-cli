@@ -24,6 +24,10 @@ x-superset-image: &superset-image apache/superset:2.1.0
 Then switch to the docker directory and update the environment variables in ```.env-non-dev``` file as below:
 
 ```
+cd docker
+```
+
+```
 SUPERSET_ENV=production
 SUPERSET_LOAD_EXAMPLES=yes
 SUPERSET_SECRET_KEY='TEXT_SUPERSET_SECRET_KEY'
