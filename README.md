@@ -16,7 +16,7 @@ git checkout 2.1.0
 
 TAG=2.1.0 docker compose -f docker-compose-non-dev.yml up
 ```
-Edit the file ```docker-compose-non-dev.yml``` and update the key ```x-superset-imag``` to use a specific image tag as below:
+Edit the file ```docker-compose-non-dev.yml``` and update the key ```x-superset-image``` to use a specific image tag as below:
 
 ```
 x-superset-image: &superset-image apache/superset:2.1.0
