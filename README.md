@@ -20,4 +20,4 @@ Edit the file ```docker-compose-non-dev.yml``` and update the key ```x-superset-
 
 ```
 x-superset-image: &superset-image apache/superset:2.1.0
-``
+```
