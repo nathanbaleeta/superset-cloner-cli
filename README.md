@@ -14,7 +14,6 @@ cd superset
 
 git checkout 2.1.0
 
-TAG=2.1.0 docker compose -f docker-compose-non-dev.yml up
 ```
 Edit the file ```docker-compose-non-dev.yml``` and update the key ```x-superset-image``` to use a specific image tag as below:
 
@@ -42,4 +41,11 @@ WTF_CSRF_ENABLED=False
 SESSION_COOKIE_SAMESITE='None'
 SESSION_COOKIE_SECURE=false 
 SESSION_COOKIE_HTTPONLY=false
+```
+
+Navigate back to the root and run the docker compose commands as below:
+```
+cd ../
+TAG=2.1.0 docker compose -f docker-compose-non-dev.yml pull
+TAG=2.1.0 docker compose -f docker-compose-non-dev.yml up
 ```
