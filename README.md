@@ -21,3 +21,21 @@ Edit the file ```docker-compose-non-dev.yml``` and update the key ```x-superset-
 ```
 x-superset-image: &superset-image apache/superset:2.1.0
 ```
+Then switch to the docker directory and update the environment variables as below:
+
+```
+SUPERSET_ENV=production
+SUPERSET_LOAD_EXAMPLES=yes
+SUPERSET_SECRET_KEY='BEN6Gx+P6bN811gPjnQWjnswSHaBJhuJ8X5EWWZ4VZOT2Y8eM3NdY0dC'
+CYPRESS_CONFIG=false
+SUPERSET_PORT=8088
+MAPBOX_API_KEY=''
+
+CSRF_ENABLED=False
+TALISMAN_ENABLED=False
+WTF_CSRF_ENABLED=False
+
+SESSION_COOKIE_SAMESITE='None'
+SESSION_COOKIE_SECURE=false 
+SESSION_COOKIE_HTTPONLY=false
+```
