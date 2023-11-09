@@ -6,7 +6,7 @@ For Apple M1/M2 chips, it may be useful to set the environmental variable global
 export DOCKER_DEFAULT_PLATFORM=linux/amd64
 ```
 
-### Quick setup
+### Quick Superset setup
 ```
 git clone https://github.com/apache/superset.git
 
