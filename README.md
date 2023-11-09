@@ -43,6 +43,11 @@ SESSION_COOKIE_SECURE=false
 SESSION_COOKIE_HTTPONLY=false
 ```
 
+To generate a unique ```SUPERSET_SECRET_KEY``` environment variable use command below:
+```
+openssl rand -base64 42
+```
+
 Navigate back to the superset root directory and run the docker compose commands as below:
 ```
 cd ../
