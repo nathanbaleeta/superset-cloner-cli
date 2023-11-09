@@ -1,1 +1,1 @@
-# magasin-superset-dashboard-cloner
+# Magasin Superset Dashboard Cloner
