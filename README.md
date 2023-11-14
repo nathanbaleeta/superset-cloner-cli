@@ -6,7 +6,7 @@ This repository should include scripts related to creating derivative dashboards
 ### Pre-requisites
 - Python 3.8+
 - Docker
-- Superset 2.1.0 
+- Superset 2.1.0 - Follow instructions here on how to install & configure the API for consuming
 
 ### Quick Setup
 The project uses [Poetry](https://python-poetry.org/) to keep track of its dependencies. To install it, you can follow the instructions [here](https://python-poetry.org/docs/#installing-with-pipx).
