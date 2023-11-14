@@ -44,6 +44,12 @@ The script accepts 2 options:
 python create_empty_dashboard.py -s "<source_dashboard_name>"" -d "destination_dashboard_name"
 ```
 
+Using an example, command would look like so:
+
+```
+python create_empty_dashboard.py -s "Slack Dashboard" -d "Slack Dashboard - Duplicate"
+```
+
 Once the script is run, you should be able to see the new empty dashboard in the Superset instance.
 
 
