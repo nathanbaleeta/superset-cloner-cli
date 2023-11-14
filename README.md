@@ -27,4 +27,4 @@ export SUPERSET_PASSWORD='admin'
 
 If you're going to test on staging, you'll need to change these three variables. Take note of the last / in the instance URL, as it's needed for the API endpoint concatenates to work properly.
 
-
+## Running the scripts
