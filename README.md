@@ -34,6 +34,12 @@ If you're going to test on staging, you'll need to change these three variables.
 
 ## Running the scripts
 
+### create_empty_dashboard.py
+The script accepts 2 options:
+
+- Name of the template dashboard
+- Name of the derivative dashboard
+
 ```
 python create_empty_dashboard.py -s "<source_dashboard_name>"" -d "destination_dashboard_name"
 ```
