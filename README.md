@@ -12,7 +12,7 @@ git clone git@github.com:nathanbaleeta/magasin-superset-dashboard-cloner.git
 
 python3 -m venv venv
 
-source <name_of_virtual_env>/bin/activate
+source venv/bin/activate
 
 poetry install
 ```
