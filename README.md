@@ -10,7 +10,7 @@ Once Poetry has been installed, you can run the following commands to set up the
 ```
 git clone git@github.com:nathanbaleeta/magasin-superset-dashboard-cloner.git
 
-python3 -m venv <name_of_virtual_env>
+python3 -m venv venv
 
 source <name_of_virtual_env>/bin/activate
 
