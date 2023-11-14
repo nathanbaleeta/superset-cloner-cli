@@ -3,6 +3,11 @@
 ## Derivative-dashboard
 This repository should include scripts related to creating derivative dashboards for UNICEF's country offices
 
+### Pre-requisites
+- Python 3.8+
+- Docker
+- Superset 2.1.0 
+
 ### Quick Setup
 The project uses [Poetry](https://python-poetry.org/) to keep track of its dependencies. To install it, you can follow the instructions [here](https://python-poetry.org/docs/#installing-with-pipx).
 
