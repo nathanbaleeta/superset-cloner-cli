@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "derivative-dashboard"
+version = "0.1.1"
+description = "Module used to create derivative dashboards for UNICEF Country Offices"
+authors = ["Nathan Baleeta <nbaleeta@unicef.org>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.31.0"
+click = "^8.1.7"
+
+
