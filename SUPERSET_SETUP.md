@@ -55,3 +55,8 @@ TAG=2.1.0 docker compose -f docker-compose-non-dev.yml pull
 TAG=2.1.0 docker compose -f docker-compose-non-dev.yml up
 ```
 
+#### Swagger API endpoint
+```
+http://localhost:8088/swagger/v1
+```
+
