@@ -12,12 +12,12 @@ git clone git@github.com:nathanbaleeta/magasin-superset-dashboard-cloner.git
 
 python3 -m venv venv
 
-source <name_of_virtual_env>/bin/activate
+source venv/bin/activate
 
 poetry install
 ```
 
-You'lll also need to set three environment variables before running the script: SUPERSET_INSTANCE_URL, SUPERSET_USERNAME, and SUPERSET_PASSWORD. If any of these are not set, the scripts would fail to run. If you have a local Superset instance set up, sourcing the following .env file should work:
+You'lll also need to set three environment variables before running the script: ```SUPERSET_INSTANCE_URL```, ```SUPERSET_USERNAME```, and ```SUPERSET_PASSWORD```. If any of these are not set, the scripts would fail to run. If you have a local Superset instance set up, sourcing the following .env file should work:
 
 ```
 export SUPERSET_INSTANCE_URL='http://localhost:8088/'
