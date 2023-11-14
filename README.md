@@ -7,6 +7,15 @@ This repository should include scripts related to creating derivative dashboards
 The project uses [Poetry](https://python-poetry.org/) to keep track of its dependencies. To install it, you can follow the instructions here.
 
 Once Poetry has been installed, you can run the following commands to set up the project in your local:
+```
+git clone git@github.com:unicef/superset-dashboard-cloner.git
+
+python -m venv <name_of_virtual_env>
+
+source <name_of_virtual_env>/bin/activate
+
+poetry install
+```
 
 
 
