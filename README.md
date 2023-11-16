@@ -41,7 +41,7 @@ The script accepts 2 options:
 - d - name of the derivative dashboard
 
 ```
-python create_empty_dashboard.py -s "<source_dashboard_name>"" -d "destination_dashboard_name"
+python create_empty_dashboard.py -s "<source_dashboard_name>" -d "destination_dashboard_name"
 ```
 
 Using an example, command would look like so:
