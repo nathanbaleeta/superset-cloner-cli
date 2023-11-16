@@ -50,6 +50,11 @@ Using an example, command would look like so:
 python create_empty_dashboard.py -s "Slack Dashboard" -d "Slack Dashboard - Duplicate"
 ```
 
+### duplicate_chart.py
+The script accepts 5 options:
+- s - name of the template dashboard
+- d - name of the derivative dashboard
+
 Once the script is run, you should be able to see the new empty dashboard in the Superset instance.
 
 
