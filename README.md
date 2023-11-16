@@ -56,6 +56,7 @@ The script accepts 5 options:
 - db - dashboard ID of the new dashboard
 - ds - datasource ID of the dataset
 - dt - datasource type of the dataset
+- sn - name of the new chart
 
 Once the script is run, you should be able to see the new empty dashboard in the Superset instance.
 
