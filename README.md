@@ -52,8 +52,8 @@ python create_empty_dashboard.py -s "Slack Dashboard" -d "Slack Dashboard - Dupl
 
 ### duplicate_chart.py
 The script accepts 5 options:
-- s - name of the template dashboard
-- d - name of the derivative dashboard
+- oid - Chart ID of the original chart
+- db - Dashboard ID of the new dashboard
 
 Once the script is run, you should be able to see the new empty dashboard in the Superset instance.
 
