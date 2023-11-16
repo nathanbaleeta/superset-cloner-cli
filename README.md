@@ -58,6 +58,10 @@ The script accepts 5 options:
 - dt - datasource type of the dataset
 - sn - name of the new chart
 
+```
+python duplicate_chart.py -oid 101 -db 24 -ds 10 -dt "table" -sn "Total Revenue - Duplicate"
+```
+
 Once the script is run, you should be able to see the new empty dashboard in the Superset instance.
 
 
