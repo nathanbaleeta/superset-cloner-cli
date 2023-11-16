@@ -39,6 +39,7 @@ The script accepts 2 options:
 
 - s - name of the template dashboard
 - d - name of the derivative dashboard
+- ds - Datasource ID of the dataset
 
 ```
 python create_empty_dashboard.py -s "<source_dashboard_name>" -d "destination_dashboard_name"
