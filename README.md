@@ -56,7 +56,7 @@ The script accepts 5 options:
 - db - dashboard ID of the new dashboard
 - ds - datasource ID of the dataset
 - dt - datasource type of the dataset
-- sn - name of the new chart
+- sn - name of the new chart (a.k.a slide_name in Superset API)
 
 ```
 python duplicate_chart.py -oid 101 -db 24 -ds 10 -dt "table" -sn "Total Revenue - Duplicate"
