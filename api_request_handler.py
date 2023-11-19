@@ -1,5 +1,6 @@
 import os
 import requests
+import sys
 
 class APIRequestHandler:
     def __init__(self, superset_instance_url, superset_username, superset_password):
@@ -13,7 +14,7 @@ class APIRequestHandler:
         if self.superset_username is None or self.superset_password is None:
             raise SystemExit('Both SUPERSET_USERNAME and SUPERSET_PASSWORD should be defined in the environment.')
 
-        payload = {"username": self.superset_username, "password": self.superset_password, "provider": "db"}
+        payload = {"username": self.superset_username, "password": self.superset_password, "provider": "db", "refresh": True}
     
         login_request = self.session.post(self.superset_instance_url + "api/v1/security/login", json=payload)
         access_token = login_request.json().get("access_token")
@@ -32,7 +33,9 @@ class APIRequestHandler:
                              f"Response: {csrf_request.json()}")
     
         headers_auth['X-CSRFToken'] = csrf_token
-        headers_auth['accept'] = 'application/json'
+        # Verify caller function prior before setting header - export_dashboard requires 'application/zip'
+        # Tip - https://stackoverflow.com/questions/900392/getting-the-caller-function-name-inside-another-function-in-python
+        headers_auth['accept'] = ('application/zip' if sys._getframe(1).f_code.co_name == 'export_dashboard' else 'application/json')
         headers_auth['Referer'] = self.superset_instance_url
     
         return headers_auth
