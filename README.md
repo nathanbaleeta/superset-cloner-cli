@@ -68,4 +68,9 @@ The script accepts 2 options:
 - d - Name of dashboard to be exported
 - o - Name of output file, defaults to dashboard_<random_string>
 
+```
+python export_dashboard.py -d "COVID Vaccine Dashboard" -o "covid_vaccine_dashboard"
+
+```
+
 
