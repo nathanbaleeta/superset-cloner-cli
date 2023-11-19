@@ -49,6 +49,7 @@ Using an example, command would look like so:
 ```
 python create_empty_dashboard.py -s "Slack Dashboard" -d "Slack Dashboard - Duplicate"
 ```
+Once the script is run, you should be able to see the new empty dashboard in the Superset instance.
 
 ### duplicate_chart.py
 The script accepts 5 options:
@@ -62,6 +63,9 @@ The script accepts 5 options:
 python duplicate_chart.py -oid 101 -db 24 -ds 10 -dt "table" -sn "Total Revenue - Duplicate"
 ```
 
-Once the script is run, you should be able to see the new empty dashboard in the Superset instance.
+### export_dashboard.py
+The script accepts 2 options:
+- d - Name of dashboard to be exported
+- o - Name of output file, defaults to dashboard_<random_string>
 
 
