@@ -60,7 +60,8 @@ def _create_dashboard(request_handler, source_dashboard_name, new_dashboard_name
         'id',
         'status',
         'thumbnail_url',
-        'url'
+        'url',
+        'tags' # This field was added in Superset 3.0.2
     ]
 
     for key in keys_to_remove:

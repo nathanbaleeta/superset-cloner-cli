@@ -85,7 +85,14 @@ def _get_chart_details(origin_chart_id, request_handler):
     if not chart_details:
         raise SystemExit(f"Chart details missing from response. Check if the Superset API has been changed.")
     
-    keys_to_remove = ['thumbnail_url', 'url', 'id', 'changed_on_delta_humanized', 'owners']
+    keys_to_remove = [
+        'thumbnail_url', 
+        'url', 
+        'id', 
+        'changed_on_delta_humanized', 
+        'owners', 
+        'tags' # This field was added in Superset 3.0.2
+    ]
 
     for key in keys_to_remove:
         chart_details.pop(key, None)
