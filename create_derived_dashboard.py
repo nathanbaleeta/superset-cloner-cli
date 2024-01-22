@@ -132,22 +132,37 @@ def _get_source_dashboard_name(dashboard_file):
 
 
 def _create_chart_name_to_id_map(dashboard_file):
-    with open(dashboard_file, "r") as input_file:
-        dashboard_dict = json.load(input_file)
+    with open(dashboard_file) as input_file:
+        dashboard_data = yaml.load(input_file, Loader=SafeLoader) or {}
 
-    dashboard_data = dashboard_dict.get("dashboards")[0].get("__Dashboard__")
     if not dashboard_data:
         raise SystemExit(f"Dashboard data not found in {dashboard_file}!")
 
-    chart_list = dashboard_data.get("slices")
+    chart_list = dashboard_data.get("position")
+
     if not chart_list:
         raise SystemExit(f"List of charts not found in {dashboard_file}!")
 
+    # regex pattern
+    pattern = "CHART-"
+
+    # Using pattern matching & list comprehension to extract charts info
+    chart_filtered_keys = [x for x in chart_list if re.match(pattern, x)]
+
+    # apply selective filtering to chart list dictionary to drop non chart info
+    result = [chart_list[i] for i in chart_filtered_keys if i in chart_list]
+ 
+    # convert filtered chart list back to dictionary for parsing
+    chart_filtered_dict = dict(zip(range(len(result)), result))
+
+    chart_filtered_list = list(chart_filtered_dict.keys())
+
     chart_name_to_id_map = {}
-    for chart in chart_list:
-        chart_info = chart["__Slice__"]
-        chart_name = chart_info["slice_name"]
-        chart_name_to_id_map[chart_name] = chart_info["id"]
+
+    # Iterate through nested dictionary to extract useful chart values
+    for chart in chart_filtered_list:
+        chart_name = chart_filtered_dict[chart]['meta']['sliceName']
+        chart_name_to_id_map[chart_name] = chart_filtered_dict[chart]['meta']['chartId']
 
     return chart_name_to_id_map
 
