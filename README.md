@@ -73,4 +73,10 @@ python export_dashboard.py -d "COVID Vaccine Dashboard" -o "covid_vaccine_dashbo
 ```
 If the output_filename isn't specified, the script will default the filename to dashboard.json.
 
+### create_derived_dashboard.py
+Once this is done, you can run the create_derived_dashboard.py script like so:
+```
+python create_derived_dashboard.py -f <yaml_file_from_exported_dashboard> -c <config_file_in_json> -n <derived_dashboard_name>
+```
+
 
