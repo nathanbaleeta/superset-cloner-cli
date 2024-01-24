@@ -70,7 +70,9 @@ def create_derived_dashboard(dashboard_file, config_file, new_dashboard_name):
 
 
 def _retain_chart_positions(request_handler, dashboard_id, chart_id_map):
-    print(chart_id_map)
+    for key, value in chart_id_map.items():
+        chart_key, chart_value = key, value
+    print(chart_key, chart_value)
     dashboard_endpoint = f"{DASHBOARD_ENDPOINT}{dashboard_id}"
     get_dashboard_response = request_handler.get_request(dashboard_endpoint)
 
@@ -91,11 +93,9 @@ def _retain_chart_positions(request_handler, dashboard_id, chart_id_map):
             and "meta" in value.keys()
             and "chartId" in value["meta"].keys()
         ):
-            old_chart_id = value["meta"]["chartId"]
-            print(value["meta"])
-            value["meta"]["chartId"] = chart_id_map[old_chart_id]
-            # break the loop to use only first key of the dictionary
-            # break 
+            # old_chart_id = value["meta"]["chartId"]
+            old_chart_id = chart_key # update
+            value["meta"]["chartId"] = chart_id_map[old_chart_id] 
             
     altered_position_json = json.dumps(position_json_dict)
     put_request_payload = _change_position_json(dashboard_info, altered_position_json)
