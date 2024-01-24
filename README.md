@@ -70,7 +70,7 @@ The script accepts 2 options:
 
 ```
 python export_dashboard.py -d "COVID Vaccine Dashboard" -o "covid_vaccine_dashboard"
-
 ```
+If the output_filename isn't specified, the script will default the filename to dashboard.json.
 
 
