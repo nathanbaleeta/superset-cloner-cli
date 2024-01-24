@@ -1,4 +1,5 @@
 import copy
+import re
 import json
 import yaml
 from yaml.loader import SafeLoader
@@ -63,15 +64,18 @@ def create_derived_dashboard(dashboard_file, config_file, new_dashboard_name):
         print(f"Chart '{new_chart_name}' created!\n")
 
         old_chart_id_to_dup_id_map[chart_id] = new_chart_id
-
+        
     _retain_chart_positions(request_handler, dashboard_id, old_chart_id_to_dup_id_map)
     print(f"Dashboard '{new_dashboard_name}' successfully created!")
 
 
 def _retain_chart_positions(request_handler, dashboard_id, chart_id_map):
+    print(chart_id_map)
     dashboard_endpoint = f"{DASHBOARD_ENDPOINT}{dashboard_id}"
     get_dashboard_response = request_handler.get_request(dashboard_endpoint)
+
     dashboard_info = get_dashboard_response.json().get("result")
+
     if not dashboard_info:
         raise SystemExit(f"Dashboard info for dashboard with id {dashboard_id} not found!")
 
@@ -88,8 +92,11 @@ def _retain_chart_positions(request_handler, dashboard_id, chart_id_map):
             and "chartId" in value["meta"].keys()
         ):
             old_chart_id = value["meta"]["chartId"]
+            print(value["meta"])
             value["meta"]["chartId"] = chart_id_map[old_chart_id]
-
+            # break the loop to use only first key of the dictionary
+            # break 
+            
     altered_position_json = json.dumps(position_json_dict)
     put_request_payload = _change_position_json(dashboard_info, altered_position_json)
     put_request = request_handler.put_request(
@@ -191,8 +198,7 @@ def _create_dataset_info_map(request_handler):
 
 
 def _create_chart_id_to_chart_info_map(
-    chart_name_to_id_map, dataset_info_map, config_file
-):
+    chart_name_to_id_map, dataset_info_map, config_file):
     with open(config_file, "r") as input_file:
         config_map = json.load(input_file)
 
