@@ -79,4 +79,16 @@ Once this is done, you can run the create_derived_dashboard.py script like so:
 python create_derived_dashboard.py -f <yaml_file_from_exported_dashboard> -c <config_file_in_json> -n <derived_dashboard_name>
 ```
 
+The script accepts three options:
+- the YAML file from the exported dashboard, which we got from the export_dashboard.py script
+- the JSON config file, which looks like so:
+```
+{
+    "<chart_name_from_source_dashboard_1>": {"dataset": "<dataset_to_be_used_by_the_new_chart>", "new_chart_name": "<new_chart_name_1>"},
+    ...
+    "<chart_name_from_source_dashboard_N>": {"dataset": "<dataset_to_be_used_by_the_new_chart>", "new_chart_name": "<new_chart_name_N>"}
+}
+```
+- the dashboard name that will be used for the derived dashboard
+
 
