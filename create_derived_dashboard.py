@@ -92,7 +92,7 @@ def _retain_chart_positions(request_handler, dashboard_id, chart_id_map):
             type(value) is dict
             and "meta" in value.keys()
             and "chartId" in value["meta"].keys()
-            and value["meta"]["chartId"] == chart_key
+            and value["meta"]["chartId"] == chart_key # to avoidKeyError, search for existing/correct chartId
         ):
             old_chart_id = value["meta"]["chartId"]
             print(value["meta"])
