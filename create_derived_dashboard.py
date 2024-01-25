@@ -65,7 +65,7 @@ def create_derived_dashboard(dashboard_file, config_file, new_dashboard_name):
 
         old_chart_id_to_dup_id_map[chart_id] = new_chart_id
         
-    _retain_chart_positions(request_handler, dashboard_id, old_chart_id_to_dup_id_map)
+        _retain_chart_positions(request_handler, dashboard_id, old_chart_id_to_dup_id_map)
     print(f"Dashboard '{new_dashboard_name}' successfully created!")
 
 
@@ -92,16 +92,15 @@ def _retain_chart_positions(request_handler, dashboard_id, chart_id_map):
             type(value) is dict
             and "meta" in value.keys()
             and "chartId" in value["meta"].keys()
+            and value["meta"]["chartId"] == chart_key
         ):
-            # old_chart_id = value["meta"]["chartId"]
-            old_chart_id = chart_key # update
+            old_chart_id = value["meta"]["chartId"]
+            print(value["meta"])
             value["meta"]["chartId"] = chart_id_map[old_chart_id] 
             
     altered_position_json = json.dumps(position_json_dict)
     put_request_payload = _change_position_json(dashboard_info, altered_position_json)
-    put_request = request_handler.put_request(
-        dashboard_endpoint, json=put_request_payload
-    )
+    put_request = request_handler.put_request(dashboard_endpoint, json=put_request_payload)
 
     return put_request
 
