@@ -12,7 +12,7 @@ git clone https://github.com/apache/superset.git
 
 cd superset
 
-git checkout 2.1.0
+git checkout 3.1.0
 ```
 Edit the file ```docker-compose-non-dev.yml``` and update the key ```x-superset-image``` to use a specific image tag as below:
 
@@ -51,8 +51,8 @@ SESSION_COOKIE_HTTPONLY=false
 Navigate back to the superset root directory and run the docker compose commands as below:
 ```
 cd ../
-TAG=2.1.0 docker compose -f docker-compose-non-dev.yml pull
-TAG=2.1.0 docker compose -f docker-compose-non-dev.yml up
+TAG=3.1.0 docker compose -f docker-compose-non-dev.yml pull
+TAG=3.1.0 docker compose -f docker-compose-non-dev.yml up
 ```
 
 #### Swagger API endpoint
