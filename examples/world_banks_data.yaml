@@ -1,0 +1,175 @@
+dashboard_title: World Banks Data
+description: null
+css: null
+slug: world_health
+certified_by: null
+certification_details: null
+published: true
+uuid: 0c120bb3-293c-4368-a2c8-a8777db6b286
+position:
+  CHART-37982887:
+    children: []
+    id: CHART-37982887
+    meta:
+      chartId: 1
+      height: 52
+      sliceName: World's Population
+      width: 2
+      uuid: 27291cb6-ab1a-4ad2-9889-3bcf3a9affc6
+    type: CHART
+  CHART-17e0f8d8:
+    children: []
+    id: CHART-17e0f8d8
+    meta:
+      chartId: 2
+      height: 92
+      sliceName: Most Populated Countries
+      width: 3
+      uuid: 05de6de7-a52e-417d-a530-c2d8a6c5d830
+    type: CHART
+  CHART-2ee52f30:
+    children: []
+    id: CHART-2ee52f30
+    meta:
+      chartId: 3
+      height: 38
+      sliceName: Growth Rate
+      width: 6
+      uuid: f57f84d1-30c2-4cd6-81e0-cbfadb060541
+    type: CHART
+  CHART-2d5b6871:
+    children: []
+    id: CHART-2d5b6871
+    meta:
+      chartId: 4
+      height: 52
+      sliceName: '% Rural'
+      width: 7
+      uuid: c9c8373b-79d5-4bfa-a6a8-0443e6338ecd
+    type: CHART
+  CHART-0fd0d252:
+    children: []
+    id: CHART-0fd0d252
+    meta:
+      chartId: 5
+      height: 50
+      sliceName: Life Expectancy VS Rural %
+      width: 8
+      uuid: 052e292a-17ac-4180-949f-fa59a2044ab5
+    type: CHART
+  CHART-97f4cb48:
+    children: []
+    id: CHART-97f4cb48
+    meta:
+      chartId: 6
+      height: 38
+      sliceName: Rural Breakdown
+      width: 3
+      uuid: de9a5c4d-1154-43e0-a798-7bec3e04004b
+    type: CHART
+  CHART-b5e05d6f:
+    children: []
+    id: CHART-b5e05d6f
+    meta:
+      chartId: 7
+      height: 50
+      sliceName: World's Pop Growth
+      width: 4
+      uuid: 9dadce3d-72ee-4d0d-ae94-19b0be7f2e29
+    type: CHART
+  CHART-e76e9f5f:
+    children: []
+    id: CHART-e76e9f5f
+    meta:
+      chartId: 8
+      height: 50
+      sliceName: Box plot
+      width: 4
+      uuid: 91afb5f1-ec8e-4e5c-990d-ded635b547dc
+    type: CHART
+  CHART-a4808bba:
+    children: []
+    id: CHART-a4808bba
+    meta:
+      chartId: 9
+      height: 50
+      sliceName: Treemap
+      width: 8
+      uuid: f528b236-2adf-4804-bd0f-9d98fd19b123
+    type: CHART
+  COLUMN-071bbbad:
+    children:
+    - ROW-1e064e3c
+    - ROW-afdefba9
+    id: COLUMN-071bbbad
+    meta:
+      background: BACKGROUND_TRANSPARENT
+      width: 9
+    type: COLUMN
+  COLUMN-fe3914b8:
+    children:
+    - CHART-37982887
+    id: COLUMN-fe3914b8
+    meta:
+      background: BACKGROUND_TRANSPARENT
+      width: 2
+    type: COLUMN
+  GRID_ID:
+    children:
+    - ROW-46632bc2
+    - ROW-3fa26c5d
+    - ROW-812b3f13
+    id: GRID_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: World's Bank Data
+    type: HEADER
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  ROW-1e064e3c:
+    children:
+    - COLUMN-fe3914b8
+    - CHART-2d5b6871
+    id: ROW-1e064e3c
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    type: ROW
+  ROW-3fa26c5d:
+    children:
+    - CHART-b5e05d6f
+    - CHART-0fd0d252
+    id: ROW-3fa26c5d
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    type: ROW
+  ROW-46632bc2:
+    children:
+    - COLUMN-071bbbad
+    - CHART-17e0f8d8
+    id: ROW-46632bc2
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    type: ROW
+  ROW-812b3f13:
+    children:
+    - CHART-a4808bba
+    - CHART-e76e9f5f
+    id: ROW-812b3f13
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    type: ROW
+  ROW-afdefba9:
+    children:
+    - CHART-2ee52f30
+    - CHART-97f4cb48
+    id: ROW-afdefba9
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    type: ROW
+  DASHBOARD_VERSION_KEY: v2
+version: 1.0.0
