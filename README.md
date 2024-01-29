@@ -98,4 +98,7 @@ python create_derived_dashboard.py -f examples/world_bank_data.yaml -c examples/
 
 Once the script is run, you should be able to see the new dashboard in the Superset instance.
 
+PS: 
+- Removed apostrophe from dashboard names as script was failing. In future add support for the latter.
+
 
