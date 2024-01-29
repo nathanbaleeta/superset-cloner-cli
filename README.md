@@ -93,7 +93,7 @@ The script accepts three options:
 
 Using the files in the examples folder, the command would look like so:
 ```
-python create_derived_dashboard.py -f examples/world_bank_data.yaml -c examples/world_bank_config_map.json -n "duplicate world bank dashboard"
+python create_derived_dashboard.py -f examples/world_banks_data.yaml -c examples/world_banks_config_map.json -n "duplicate world bank dashboard"
 ```
 
 Once the script is run, you should be able to see the new dashboard in the Superset instance.
