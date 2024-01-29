@@ -1,5 +1,4 @@
 {
-    "Region Filter": {"dataset": "wb_health_population", "new_chart_name": "Region Filter - Duplicate"},
     "World's Population": {"dataset": "wb_health_population", "new_chart_name": "World's Population - Duplicate"},
     "% Rural": {"dataset": "wb_health_population", "new_chart_name": "% Rural - Duplicate"},
     "Growth Rate": {"dataset": "wb_health_population", "new_chart_name": "Growth Rate - Duplicate"},
