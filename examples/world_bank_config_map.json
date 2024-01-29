@@ -1,0 +1,34 @@
+{
+    "Region Filter": {"dataset": "wb_health_population", "new_chart_name": "Region Filter - Duplicate"},
+    "World's Population": {"dataset": "wb_health_population", "new_chart_name": "World's Population - Duplicate"},
+    "% Rural": {"dataset": "wb_health_population", "new_chart_name": "% Rural - Duplicate"},
+    "Growth Rate": {"dataset": "wb_health_population", "new_chart_name": "Growth Rate - Duplicate"},
+    "Rural Breakdown": {"dataset": "wb_health_population", "new_chart_name": "Rural Breakdown - Duplicate"},
+    "Most Populated Countries": {"dataset": "wb_health_population", "new_chart_name": "Most Populated Countries - Duplicate"},
+    "World's Pop Growth": {"dataset": "wb_health_population", "new_chart_name": "World's Pop Growth - Duplicate"},
+    "Life Expectancy VS Rural %": {"dataset": "wb_health_population", "new_chart_name": "Life Expectancy VS Rural % - Duplicate"},
+    "Treemap": {"dataset": "wb_health_population", "new_chart_name": "Treemap - Duplicate"},
+    "Box plot": {"dataset": "wb_health_population", "new_chart_name": "Box plot - Duplicate"}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
