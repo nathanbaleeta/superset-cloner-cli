@@ -1,0 +1,25 @@
+{
+    "Participants": {"dataset": "birth_names", "new_chart_name": "Participants - Duplicate"},
+    "Trends": {"dataset": "birth_names", "new_chart_name": "Trends - Duplicate"},
+    "Genders": {"dataset": "birth_names", "new_chart_name": "Genders - Duplicate"},
+    "Genders by State": {"dataset": "birth_names", "new_chart_name": "Genders by State - Duplicate"},
+    "Girls": {"dataset": "birth_names", "new_chart_name": "Girls - Duplicate"},
+    "Girl Name Cloud": {"dataset": "birth_names", "new_chart_name": "Girl Name Cloud - Duplicate"},
+    "Boys": {"dataset": "birth_names", "new_chart_name": "Boys - Duplicate"},
+    "Boy Name Cloud": {"dataset": "birth_names", "new_chart_name": "Boy Name Cloud - Duplicate"},
+    "Top 10 Girl Name Share": {"dataset": "birth_names", "new_chart_name": "Top 10 Girl Name Share - Duplicate"},
+    "Top 10 Boy Name Share": {"dataset": "birth_names", "new_chart_name": "Top 10 Boy Name Share - Duplicate"},
+    "Pivot Table v2": {"dataset": "birth_names", "new_chart_name": "Pivot Table v2 - Duplicate"}
+}
+
+
+
+
+
+
+
+
+
+
+
+
