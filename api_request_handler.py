@@ -47,6 +47,8 @@ class APIRequestHandler:
             return response
         except requests.exceptions.HTTPError as err:
             raise SystemExit(f"\nHTTP Error: '{err}'\n" + f"Response: {response.text}")
+        finally:
+            self.session.close()
 
     def post_request(self, endpoint, **kwargs):
         return self._execute_http_method(self.session.post, endpoint, **kwargs)
