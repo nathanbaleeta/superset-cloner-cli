@@ -78,6 +78,9 @@ Once this is done, you can run the create_derived_dashboard.py script like so:
 ```
 python create_derived_dashboard.py -f <yaml_file_from_exported_dashboard> -c <config_file_in_json> -n <derived_dashboard_name>
 ```
+```
+python create_derived_dashboard.py -f examples/usa_births_names.yaml -c examples/usa_births_names_config_map.json -n "duplicate usa births names dashboard"
+```
 
 The script accepts three options:
 - the YAML file from the exported dashboard, which we got from the export_dashboard.py script
