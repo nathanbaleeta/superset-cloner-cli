@@ -1,0 +1,1091 @@
+dashboard_title: RapidPro 2022 Messages
+description: null
+css: ''
+slug: null
+certified_by: ''
+certification_details: ''
+published: true
+uuid: d3aa7ab9-5c77-4a0b-9d67-b13f3abb4f62
+position:
+  CHART--I9mSxpjp5:
+    children: []
+    id: CHART--I9mSxpjp5
+    meta:
+      chartId: 13
+      height: 50
+      sliceName: Monthly messages by channel type by direction
+      uuid: 22654b31-476a-4b18-a458-1010954f4631
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-zhNHEQ4t5
+    type: CHART
+  CHART--jW1AzkxiZ:
+    children: []
+    id: CHART--jW1AzkxiZ
+    meta:
+      chartId: 20
+      height: 99
+      sliceName: Channel engagement (orgs with >50k msgs)
+      uuid: e15ac45b-1aa1-4032-b55c-5f9970e3f382
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-e_8JTRwmZ
+    type: CHART
+  CHART-AnKIrKc61F:
+    children: []
+    id: CHART-AnKIrKc61F
+    meta:
+      chartId: 10
+      height: 50
+      sliceName: Total messages by country
+      uuid: 902784f2-e2eb-4fc8-8b6f-42f135dea1f5
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-06oZl1AYX
+    type: CHART
+  CHART-GlMqwrLhCE:
+    children: []
+    id: CHART-GlMqwrLhCE
+    meta:
+      chartId: 12
+      height: 50
+      sliceName: Messages by region and country
+      uuid: 8de52108-94cb-4f3b-a822-c2d59a7139ff
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-NX06wifja4
+    type: CHART
+  CHART-IrbpuOzGcF:
+    children: []
+    id: CHART-IrbpuOzGcF
+    meta:
+      chartId: 17
+      height: 50
+      sliceName: Total messages by vendor by workspace
+      uuid: 4d876c35-c756-4abe-add4-c7672db360f6
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-CNjzLDD1R
+    type: CHART
+  CHART-O2k2_fMrOl:
+    children: []
+    id: CHART-O2k2_fMrOl
+    meta:
+      chartId: 18
+      height: 50
+      sliceName: Regions by hosting vendor
+      uuid: 40ac2e07-36f1-4dc9-88b3-beab7b5818b4
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-xYoDiqM9J
+    type: CHART
+  CHART-WfN-q0Ni0Um:
+    children: []
+    id: CHART-WfN-q0Ni0Um
+    meta:
+      chartId: 21
+      height: 50
+      sliceName: Workspaces by region by U-Report
+      uuid: f44c026d-912b-4940-8c09-ec19e920f3cb
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-IALdk3qgF
+    type: CHART
+  CHART-_k5p6GfBJQ:
+    children: []
+    id: CHART-_k5p6GfBJQ
+    meta:
+      chartId: 11
+      height: 50
+      sliceName: Total messages by vendor by channel
+      uuid: 73cb8443-7365-4dc2-b388-eb5eed19ac76
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-V8JBUYzv5
+    type: CHART
+  CHART-i6CI1b161n:
+    children: []
+    id: CHART-i6CI1b161n
+    meta:
+      chartId: 19
+      height: 50
+      sliceName: Messages by channel (direction and is U-Report)
+      uuid: 1325ee0e-375b-4e0c-8fbc-10990b36ba2a
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-QflzgzDYA
+    type: CHART
+  CHART-nKEkZaYBPPe:
+    children: []
+    id: CHART-nKEkZaYBPPe
+    meta:
+      chartId: 22
+      height: 50
+      sliceName: Messages by month by U-Report
+      uuid: 067d93bc-0039-4aca-a0ac-7839aab49d13
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-ulP5kORUA6i
+    type: CHART
+  CHART-nchnyvwifl:
+    children: []
+    id: CHART-nchnyvwifl
+    meta:
+      chartId: 15
+      height: 50
+      sliceName: Monthly messages by workspace
+      uuid: ebdce8b6-6b30-44fa-8ad4-a27c59dc9110
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-D1UCAw34QW
+    type: CHART
+  CHART-tL3DRV38qO:
+    children: []
+    id: CHART-tL3DRV38qO
+    meta:
+      chartId: 16
+      height: 50
+      sliceName: Workspaces by country
+      uuid: 9443dea2-ef62-41ac-8a2d-4a7f0b67003b
+      width: 6
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-KYHg1t-2S
+    type: CHART
+  CHART-vxWQT-r_lz:
+    children: []
+    id: CHART-vxWQT-r_lz
+    meta:
+      chartId: 24
+      height: 50
+      sliceName: Messages by country
+      uuid: 8d51972a-a59b-4a43-ad88-380550a0d940
+      width: 6
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-KYHg1t-2S
+    type: CHART
+  CHART-zd65zTjBMN:
+    children: []
+    id: CHART-zd65zTjBMN
+    meta:
+      chartId: 14
+      height: 50
+      sliceName: Monthly messages
+      uuid: bf634259-7a6c-4ab4-a078-8f0d931a202e
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-CMJP12ARR
+    type: CHART
+  DASHBOARD_VERSION_KEY: v2
+  GRID_ID:
+    children:
+    - ROW-06oZl1AYX
+    - ROW-KYHg1t-2S
+    - ROW-V8JBUYzv5
+    - ROW-NX06wifja4
+    - ROW-CNjzLDD1R
+    - ROW-xYoDiqM9J
+    - ROW-QflzgzDYA
+    - ROW-e_8JTRwmZ
+    - ROW-IALdk3qgF
+    - ROW-D1UCAw34QW
+    - ROW-CMJP12ARR
+    - ROW-ulP5kORUA6i
+    - ROW-zhNHEQ4t5
+    - ROW-ZpBHsGR3i
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: RapidPro 2022 Messages
+    type: HEADER
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  ROW-06oZl1AYX:
+    children:
+    - CHART-AnKIrKc61F
+    id: ROW-06oZl1AYX
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-CMJP12ARR:
+    children:
+    - CHART-zd65zTjBMN
+    id: ROW-CMJP12ARR
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-CNjzLDD1R:
+    children:
+    - CHART-IrbpuOzGcF
+    id: ROW-CNjzLDD1R
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-D1UCAw34QW:
+    children:
+    - CHART-nchnyvwifl
+    id: ROW-D1UCAw34QW
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-IALdk3qgF:
+    children:
+    - CHART-WfN-q0Ni0Um
+    id: ROW-IALdk3qgF
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-KYHg1t-2S:
+    children:
+    - CHART-vxWQT-r_lz
+    - CHART-tL3DRV38qO
+    id: ROW-KYHg1t-2S
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-NX06wifja4:
+    children:
+    - CHART-GlMqwrLhCE
+    id: ROW-NX06wifja4
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-QflzgzDYA:
+    children:
+    - CHART-i6CI1b161n
+    id: ROW-QflzgzDYA
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-V8JBUYzv5:
+    children:
+    - CHART-_k5p6GfBJQ
+    id: ROW-V8JBUYzv5
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-ZpBHsGR3i:
+    children:
+    - CHART-r9Wm5QKwYuV
+    id: ROW-ZpBHsGR3i
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-e_8JTRwmZ:
+    children:
+    - CHART--jW1AzkxiZ
+    id: ROW-e_8JTRwmZ
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-ulP5kORUA6i:
+    children:
+    - CHART-nKEkZaYBPPe
+    id: ROW-ulP5kORUA6i
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-xYoDiqM9J:
+    children:
+    - CHART-O2k2_fMrOl
+    id: ROW-xYoDiqM9J
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-zhNHEQ4t5:
+    children:
+    - CHART--I9mSxpjp5
+    id: ROW-zhNHEQ4t5
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+metadata:
+  native_filter_configuration:
+  - id: NATIVE_FILTER-pldG7V7cZ
+    controlValues:
+      sortAscending: true
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: true
+      inverseSelection: false
+    name: UNICEF Region
+    filterType: filter_select
+    targets:
+    - column:
+        name: UNICEF_REGION
+      datasetUuid: 0c1ea783-0880-4559-9b6c-f90c1e722a0a
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds:
+    - NATIVE_FILTER-bbpRoC879
+    - NATIVE_FILTER-fMCxRUTxX
+    - NATIVE_FILTER-7L0wsX_Oh
+    - NATIVE_FILTER-yBBYni6_C
+    - NATIVE_FILTER-e29zQBhVE
+    - NATIVE_FILTER-cZqbiXznM
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    chartsInScope:
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    tabsInScope: []
+    description: ''
+    adhoc_filters:
+    - expressionType: SIMPLE
+      subject: UNICEF_REGION
+      operator: IS NOT NULL
+      operatorId: IS_NOT_NULL
+      comparator: null
+      clause: WHERE
+      sqlExpression: null
+      isExtra: false
+      isNew: false
+      datasourceWarning: false
+      filterOptionName: filter_rhhbcut7hnc_pnt8vz899qs
+    time_range: No filter
+  - id: NATIVE_FILTER-0gnLeW9JW
+    controlValues:
+      sortAscending: true
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: true
+      inverseSelection: false
+    name: Country
+    filterType: filter_select
+    targets:
+    - column:
+        name: LOCATION
+      datasetUuid: 0c1ea783-0880-4559-9b6c-f90c1e722a0a
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds:
+    - NATIVE_FILTER-bbpRoC879
+    - NATIVE_FILTER-fMCxRUTxX
+    - NATIVE_FILTER-7L0wsX_Oh
+    - NATIVE_FILTER-yBBYni6_C
+    - NATIVE_FILTER-e29zQBhVE
+    - NATIVE_FILTER-cZqbiXznM
+    - NATIVE_FILTER-pldG7V7cZ
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    chartsInScope:
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    tabsInScope: []
+    description: ''
+    adhoc_filters:
+    - expressionType: SIMPLE
+      subject: LOCATION
+      operator: IS NOT NULL
+      operatorId: IS_NOT_NULL
+      comparator: null
+      clause: WHERE
+      sqlExpression: null
+      isExtra: false
+      isNew: false
+      datasourceWarning: false
+      filterOptionName: filter_d7c79wn7e3w_om58yy17clr
+    time_range: No filter
+  - id: NATIVE_FILTER-bbpRoC879
+    controlValues:
+      sortAscending: true
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: true
+      inverseSelection: false
+    name: Workspace (ORG)
+    filterType: filter_select
+    targets:
+    - column:
+        name: ORG
+      datasetUuid: 0c1ea783-0880-4559-9b6c-f90c1e722a0a
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds:
+    - NATIVE_FILTER-fMCxRUTxX
+    - NATIVE_FILTER-7L0wsX_Oh
+    - NATIVE_FILTER-yBBYni6_C
+    - NATIVE_FILTER-e29zQBhVE
+    - NATIVE_FILTER-cZqbiXznM
+    - NATIVE_FILTER-pldG7V7cZ
+    - NATIVE_FILTER-0gnLeW9JW
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    chartsInScope:
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    tabsInScope: []
+    description: ''
+  - id: NATIVE_FILTER-fMCxRUTxX
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: false
+      searchAllOptions: false
+      inverseSelection: false
+    name: Message direction
+    filterType: filter_select
+    targets:
+    - column:
+        name: DIRECTION
+      datasetUuid: 0c1ea783-0880-4559-9b6c-f90c1e722a0a
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds:
+    - NATIVE_FILTER-pldG7V7cZ
+    - NATIVE_FILTER-0gnLeW9JW
+    - NATIVE_FILTER-bbpRoC879
+    - NATIVE_FILTER-7L0wsX_Oh
+    - NATIVE_FILTER-yBBYni6_C
+    - NATIVE_FILTER-e29zQBhVE
+    - NATIVE_FILTER-cZqbiXznM
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    chartsInScope:
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    tabsInScope: []
+    description: ''
+  - id: NATIVE_FILTER-7L0wsX_Oh
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: false
+      searchAllOptions: false
+      inverseSelection: false
+    name: Vendor
+    filterType: filter_select
+    targets:
+    - column:
+        name: VENDOR
+      datasetUuid: 0c1ea783-0880-4559-9b6c-f90c1e722a0a
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds:
+    - NATIVE_FILTER-pldG7V7cZ
+    - NATIVE_FILTER-0gnLeW9JW
+    - NATIVE_FILTER-bbpRoC879
+    - NATIVE_FILTER-yBBYni6_C
+    - NATIVE_FILTER-e29zQBhVE
+    - NATIVE_FILTER-cZqbiXznM
+    - NATIVE_FILTER-fMCxRUTxX
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    chartsInScope:
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    tabsInScope: []
+    description: ''
+  - id: NATIVE_FILTER-yBBYni6_C
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: false
+      searchAllOptions: false
+      inverseSelection: false
+    name: Channel
+    filterType: filter_select
+    targets:
+    - column:
+        name: CHANNEL
+      datasetUuid: 0c1ea783-0880-4559-9b6c-f90c1e722a0a
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds:
+    - NATIVE_FILTER-pldG7V7cZ
+    - NATIVE_FILTER-0gnLeW9JW
+    - NATIVE_FILTER-bbpRoC879
+    - NATIVE_FILTER-fMCxRUTxX
+    - NATIVE_FILTER-e29zQBhVE
+    - NATIVE_FILTER-cZqbiXznM
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    chartsInScope:
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    tabsInScope: []
+    description: ''
+  - id: NATIVE_FILTER-e29zQBhVE
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: Month
+    filterType: filter_select
+    targets:
+    - column:
+        name: MONTH_STR
+      datasetUuid: 0c1ea783-0880-4559-9b6c-f90c1e722a0a
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds:
+    - NATIVE_FILTER-pldG7V7cZ
+    - NATIVE_FILTER-0gnLeW9JW
+    - NATIVE_FILTER-bbpRoC879
+    - NATIVE_FILTER-fMCxRUTxX
+    - NATIVE_FILTER-7L0wsX_Oh
+    - NATIVE_FILTER-cZqbiXznM
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    chartsInScope:
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    tabsInScope: []
+    description: ''
+  - id: NATIVE_FILTER-cZqbiXznM
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: false
+      searchAllOptions: false
+      inverseSelection: false
+    name: U-Report
+    filterType: filter_select
+    targets:
+    - column:
+        name: UREPORT
+      datasetUuid: 0c1ea783-0880-4559-9b6c-f90c1e722a0a
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds:
+    - NATIVE_FILTER-pldG7V7cZ
+    - NATIVE_FILTER-0gnLeW9JW
+    - NATIVE_FILTER-bbpRoC879
+    - NATIVE_FILTER-fMCxRUTxX
+    - NATIVE_FILTER-7L0wsX_Oh
+    - NATIVE_FILTER-yBBYni6_C
+    - NATIVE_FILTER-e29zQBhVE
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    chartsInScope:
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    tabsInScope: []
+    description: ''
+  color_scheme: ''
+  refresh_frequency: 0
+  expanded_slices: {}
+  label_colors: {}
+  timed_refresh_immune_slices: []
+  default_filters: '{}'
+  chart_configuration:
+    '10':
+      id: 10
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+    '11':
+      id: 11
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 10
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+    '12':
+      id: 12
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 10
+        - 11
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+    '13':
+      id: 13
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 10
+        - 11
+        - 12
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+    '14':
+      id: 14
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 10
+        - 11
+        - 12
+        - 13
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+    '15':
+      id: 15
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+    '16':
+      id: 16
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+    '17':
+      id: 17
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+    '18':
+      id: 18
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+    '20':
+      id: 20
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 21
+        - 22
+        - 23
+        - 24
+    '21':
+      id: 21
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 22
+        - 23
+        - 24
+    '22':
+      id: 22
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 23
+        - 24
+    '23':
+      id: 23
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 24
+    '24':
+      id: 24
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+  global_chart_configuration:
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    chartsInScope:
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+  shared_label_colors: {}
+  color_scheme_domain: []
+  cross_filters_enabled: true
+version: 1.0.0

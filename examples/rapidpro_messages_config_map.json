@@ -1,0 +1,24 @@
+{
+    "Total messages by country": {"dataset": "2023_combined_channel_stats_tall.parquet", "new_chart_name": "Total messages by country Duplicate"},
+    "Messages by country": {"dataset": "2023_combined_channel_stats_tall.parquet", "new_chart_name": "Messages by country Duplicate"},
+    "Monthly messages": {"dataset": "2023_combined_channel_stats_tall.parquet", "new_chart_name": "Monthly messages Duplicate"},
+    "Monthly messages by channel type by direction": {"dataset": "2023_combined_channel_stats_tall.parquet", "new_chart_name": "Monthly messages by channel type by direction Duplicate"},
+    "Channel engagement (orgs with >50k msgs)": {"dataset": "2023_combined_channel_stats_tall.parquet", "new_chart_name": "Channel engagement (orgs with >50k msgs) Duplicate"},
+    "Messages by region and country": {"dataset": "2023_combined_channel_stats_tall.parquet", "new_chart_name": "Messages by region and country Duplicate"},
+    "Total messages by vendor by workspace": {"dataset": "2023_combined_channel_stats_tall.parquet", "new_chart_name": "Total messages by vendor by workspace Duplicate"},
+    "Regions by hosting vendor": {"dataset": "2023_combined_channel_stats_tall.parquet", "new_chart_name": "Regions by hosting vendor Duplicate"},
+    "Workspaces by region by U-Report": {"dataset": "2023_combined_channel_stats_tall.parquet", "new_chart_name": "Workspaces by region by U-Report Duplicate"},
+    "Total messages by vendor by channel": {"dataset": "2023_combined_channel_stats_tall.parquet", "new_chart_name": "Total messages by vendor by channel Duplicate"},
+    "Messages by channel (direction and is U-Report)": {"dataset": "2023_combined_channel_stats_tall.parquet", "new_chart_name": "Messages by channel (direction and is U-Report) Duplicate"},
+    "Messages by month by U-Report": {"dataset": "2023_combined_channel_stats_tall.parquet", "new_chart_name": "Messages by month by U-Report Duplicate"},
+    "Monthly messages by workspace": {"dataset": "2023_combined_channel_stats_tall.parquet", "new_chart_name": "Monthly messages by workspace Duplicate"},
+    "Workspaces by country": {"dataset": "2023_combined_channel_stats_tall.parquet", "new_chart_name": "Workspaces by country Duplicate"}
+    
+
+
+
+
+}
+
+
+
