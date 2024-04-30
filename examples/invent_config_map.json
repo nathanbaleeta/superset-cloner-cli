@@ -1,0 +1,11 @@
+{
+    "Goal Area Distribution": {"dataset": "invent_initiatives_transformed.parquet", "new_chart_name": "Goal Area Distribution - Duplicate"},
+    "Sector Breakdown": {"dataset": "invent_initiatives_transformed.parquet", "new_chart_name": "Sector Breakdown - Duplicate"},
+    "Initiative Count": {"dataset": "invent_initiatives_transformed.parquet", "new_chart_name": "Initiative Count - Duplicate"},
+    "Initiative Geographic Distribution": {"dataset": "invent_initiatives_transformed.parquet", "new_chart_name": "Initiative Geographic Distribution - Duplicate"},
+    "Total Budget": {"dataset": "invent_initiatives_transformed.parquet", "new_chart_name": "Total Budget - Duplicate"},
+    "Stage vs Phase Distribution": {"dataset": "invent_initiatives_transformed.parquet", "new_chart_name": "Stage vs Phase Distribution - Duplicate"},
+    "Population Reached": {"dataset": "invent_initiatives_transformed.parquet", "new_chart_name": "Population Reached - Duplicate"},
+    "Sector by Stage": {"dataset": "invent_initiatives_transformed.parquet", "new_chart_name": "Sector by Stage - Duplicate"},
+    "Initiative List": {"dataset": "invent_initiatives_transformed.parquet", "new_chart_name": "Initiative List - Duplicate"}
+}

@@ -1,0 +1,611 @@
+dashboard_title: INVENT Data Analytics
+description: null
+css: ''
+slug: null
+certified_by: null
+certification_details: null
+published: true
+uuid: 80731462-cf59-4118-afbe-9ddfdfe859d9
+position:
+  CHART-2r11JzCCt_:
+    children: []
+    id: CHART-2r11JzCCt_
+    meta:
+      chartId: 7
+      height: 81
+      sliceName: Goal Area Distribution
+      uuid: 9d4492cd-fc0b-462a-918f-9c0fa0d4c52b
+      width: 6
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Y7lwGKDxd2
+    - TAB-lfT31z6yM5
+    - ROW-HUwwOwBZ2n
+    type: CHART
+  CHART-84MdlwPEhw:
+    children: []
+    id: CHART-84MdlwPEhw
+    meta:
+      chartId: 3
+      height: 71
+      sliceName: Sector Breakdown
+      uuid: 3c5f3140-1ae8-46b8-91bc-0c673042894a
+      width: 3
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Y7lwGKDxd2
+    - TAB-lfT31z6yM5
+    - ROW-j5WDobBiOu
+    type: CHART
+  CHART-AE1AADg2ZL:
+    children: []
+    id: CHART-AE1AADg2ZL
+    meta:
+      chartId: 1
+      height: 61
+      sliceName: Initiative Count
+      uuid: 514d31cc-0954-4f1f-a19b-c752a5a155ca
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Y7lwGKDxd2
+    - TAB-lfT31z6yM5
+    - ROW-0m5KaxWYoB
+    type: CHART
+  CHART-HjlkaP4znM:
+    children: []
+    id: CHART-HjlkaP4znM
+    meta:
+      chartId: 2
+      height: 61
+      sliceName: Initiative Geographic Distribution
+      uuid: 1aab2ac7-0c3b-4de0-b692-f0d47308deb6
+      width: 8
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Y7lwGKDxd2
+    - TAB-lfT31z6yM5
+    - ROW-0m5KaxWYoB
+    type: CHART
+  CHART-Htpe6f_5K2:
+    children: []
+    id: CHART-Htpe6f_5K2
+    meta:
+      chartId: 5
+      height: 72
+      sliceName: Total Budget
+      uuid: a45e0e32-750c-432b-ab8d-15fabd1cbe5c
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Y7lwGKDxd2
+    - TAB-lfT31z6yM5
+    - ROW-j5WDobBiOu
+    type: CHART
+  CHART-lC57fRBOkf:
+    children: []
+    id: CHART-lC57fRBOkf
+    meta:
+      chartId: 4
+      height: 71
+      sliceName: Stage vs Phase Distribution
+      uuid: 2c7e74a0-d3ed-49dd-8174-4ff65be21bb6
+      width: 5
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Y7lwGKDxd2
+    - TAB-lfT31z6yM5
+    - ROW-j5WDobBiOu
+    type: CHART
+  CHART-m5DuKFl7YQ:
+    children: []
+    id: CHART-m5DuKFl7YQ
+    meta:
+      chartId: 8
+      height: 84
+      sliceName: Population Reached
+      uuid: acbf15cc-ab39-44a4-8429-cdd7f4e25ab2
+      width: 5
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Y7lwGKDxd2
+    - TAB-lfT31z6yM5
+    - ROW-DxJmwz0pwr
+    type: CHART
+  CHART-nvYHLspBMC:
+    children: []
+    id: CHART-nvYHLspBMC
+    meta:
+      chartId: 9
+      height: 81
+      sliceName: Sector by Stage
+      uuid: 27d7a87e-783d-46df-aae8-d3b673a7ed2e
+      width: 7
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Y7lwGKDxd2
+    - TAB-lfT31z6yM5
+    - ROW-DxJmwz0pwr
+    type: CHART
+  CHART-qqQOKNj56t:
+    children: []
+    id: CHART-qqQOKNj56t
+    meta:
+      chartId: 6
+      height: 81
+      sliceName: Initiative List
+      uuid: e89a230a-6a7c-4e23-bd9b-a8fd901a8a96
+      width: 6
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Y7lwGKDxd2
+    - TAB-lfT31z6yM5
+    - ROW-HUwwOwBZ2n
+    type: CHART
+  DASHBOARD_VERSION_KEY: v2
+  GRID_ID:
+    children:
+    - TABS-Y7lwGKDxd2
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: INVENT Data Analytics
+    type: HEADER
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  ROW-0m5KaxWYoB:
+    children:
+    - CHART-AE1AADg2ZL
+    - CHART-HjlkaP4znM
+    id: ROW-0m5KaxWYoB
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Y7lwGKDxd2
+    - TAB-lfT31z6yM5
+    type: ROW
+  ROW-DxJmwz0pwr:
+    children:
+    - CHART-nvYHLspBMC
+    - CHART-m5DuKFl7YQ
+    id: ROW-DxJmwz0pwr
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Y7lwGKDxd2
+    - TAB-lfT31z6yM5
+    type: ROW
+  ROW-HUwwOwBZ2n:
+    children:
+    - CHART-qqQOKNj56t
+    - CHART-2r11JzCCt_
+    id: ROW-HUwwOwBZ2n
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Y7lwGKDxd2
+    - TAB-lfT31z6yM5
+    type: ROW
+  ROW-j5WDobBiOu:
+    children:
+    - CHART-84MdlwPEhw
+    - CHART-lC57fRBOkf
+    - CHART-Htpe6f_5K2
+    id: ROW-j5WDobBiOu
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Y7lwGKDxd2
+    - TAB-lfT31z6yM5
+    type: ROW
+  TAB-lfT31z6yM5:
+    children:
+    - ROW-0m5KaxWYoB
+    - ROW-j5WDobBiOu
+    - ROW-HUwwOwBZ2n
+    - ROW-DxJmwz0pwr
+    id: TAB-lfT31z6yM5
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Overview
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Y7lwGKDxd2
+    type: TAB
+  TABS-Y7lwGKDxd2:
+    children:
+    - TAB-lfT31z6yM5
+    id: TABS-Y7lwGKDxd2
+    meta: {}
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: TABS
+metadata:
+  chart_configuration:
+    '2':
+      id: 2
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 1
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+    '3':
+      id: 3
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 1
+        - 2
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+    '4':
+      id: 4
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 1
+        - 2
+        - 3
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+    '5':
+      id: 5
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 6
+        - 7
+        - 8
+        - 9
+    '6':
+      id: 6
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 7
+        - 8
+        - 9
+    '7':
+      id: 7
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 8
+        - 9
+    '8':
+      id: 8
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+    '9':
+      id: 9
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+  global_chart_configuration:
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    chartsInScope:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+  color_scheme: echarts4Colors
+  refresh_frequency: 0
+  expanded_slices: {}
+  label_colors: {}
+  timed_refresh_immune_slices: []
+  cross_filters_enabled: true
+  default_filters: '{}'
+  native_filter_configuration:
+  - id: NATIVE_FILTER-rdM-0a6Fa
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: Region
+    filterType: filter_select
+    targets:
+    - column:
+        name: region_name
+      datasetUuid: 7c990856-c477-46aa-97e7-d2d5a71ffd4b
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    tabsInScope:
+    - TAB-lfT31z6yM5
+  - id: NATIVE_FILTER-yDo1RMYkw
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: Country
+    filterType: filter_select
+    targets:
+    - column:
+        name: country_name
+      datasetUuid: 7c990856-c477-46aa-97e7-d2d5a71ffd4b
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds:
+    - NATIVE_FILTER-rdM-0a6Fa
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    tabsInScope:
+    - TAB-lfT31z6yM5
+  - id: NATIVE_FILTER-XEarMpJoY
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: Phase
+    filterType: filter_select
+    targets:
+    - column:
+        name: phase_name
+      datasetUuid: 7c990856-c477-46aa-97e7-d2d5a71ffd4b
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds:
+    - NATIVE_FILTER-rdM-0a6Fa
+    - NATIVE_FILTER-yDo1RMYkw
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    tabsInScope:
+    - TAB-lfT31z6yM5
+  - id: NATIVE_FILTER-qW1sPwyW1
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: Stage
+    filterType: filter_select
+    targets:
+    - column:
+        name: stage_label
+      datasetUuid: 7c990856-c477-46aa-97e7-d2d5a71ffd4b
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds:
+    - NATIVE_FILTER-rdM-0a6Fa
+    - NATIVE_FILTER-yDo1RMYkw
+    - NATIVE_FILTER-XEarMpJoY
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    tabsInScope:
+    - TAB-lfT31z6yM5
+  - id: NATIVE_FILTER-NSlDLLeUx
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: Sector
+    filterType: filter_select
+    targets:
+    - column:
+        name: sector_name
+      datasetUuid: 7c990856-c477-46aa-97e7-d2d5a71ffd4b
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds:
+    - NATIVE_FILTER-rdM-0a6Fa
+    - NATIVE_FILTER-yDo1RMYkw
+    - NATIVE_FILTER-XEarMpJoY
+    - NATIVE_FILTER-qW1sPwyW1
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    tabsInScope:
+    - TAB-lfT31z6yM5
+  - id: NATIVE_FILTER-O8AuSszsS
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: Goal Area
+    filterType: filter_select
+    targets:
+    - column:
+        name: goal_area_name
+      datasetUuid: 7c990856-c477-46aa-97e7-d2d5a71ffd4b
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds:
+    - NATIVE_FILTER-rdM-0a6Fa
+    - NATIVE_FILTER-yDo1RMYkw
+    - NATIVE_FILTER-XEarMpJoY
+    - NATIVE_FILTER-qW1sPwyW1
+    - NATIVE_FILTER-NSlDLLeUx
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+  shared_label_colors: {}
+  color_scheme_domain:
+  - '#c23531'
+  - '#2f4554'
+  - '#61a0a8'
+  - '#d48265'
+  - '#91c7ae'
+  - '#749f83'
+  - '#ca8622'
+  - '#bda29a'
+  - '#6e7074'
+  - '#546570'
+  - '#c4ccd3'
+version: 1.0.0
