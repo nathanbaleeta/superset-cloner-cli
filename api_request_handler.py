@@ -16,7 +16,7 @@ class APIRequestHandler:
 
         payload = {"username": self.superset_username, "password": self.superset_password, "provider": "db", "refresh": True}
     
-        login_request = self.session.post(self.superset_instance_url + "api/v1/security/login", json=payload)
+        login_request = self.session.post(self.superset_instance_url + "api/v1/security/login", json=payload, verify=False)
         access_token = login_request.json().get("access_token")
         if not access_token:
             raise SystemExit("JWT token not found in response. "

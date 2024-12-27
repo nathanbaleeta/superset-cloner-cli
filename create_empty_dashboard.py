@@ -74,7 +74,7 @@ def _create_dashboard(request_handler, source_dashboard_name, new_dashboard_name
 
     dashboard_data['owners'] = [owner['id'] for owner in dashboard_data['owners']]
 
-    dashboard_post_response = request_handler.post_request(DASHBOARD_ENDPOINT, json=dashboard_data)
+    dashboard_post_response = request_handler.post_request(DASHBOARD_ENDPOINT, json=dashboard_data, verify=False)
     dashboard_id = dashboard_post_response.json().get('id')
 
     if not dashboard_id:
