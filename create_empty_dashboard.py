@@ -29,6 +29,7 @@ def create_empty_dashboard_command(source_dashboard_name, destination_dashboard_
 
 def create_empty_dashboard(source_dashboard_name, destination_dashboard_name):
     request_handler = APIRequestHandler(SUPERSET_INSTANCE_URL, SUPERSET_USERNAME, SUPERSET_PASSWORD)
+    print(request_handler)
 
     print(f"Creating empty dashboard '{destination_dashboard_name}' from '{source_dashboard_name}'...")
     dashboard_id = _create_dashboard(request_handler, source_dashboard_name, destination_dashboard_name)
@@ -39,6 +40,7 @@ def create_empty_dashboard(source_dashboard_name, destination_dashboard_name):
 
 def _create_dashboard(request_handler, source_dashboard_name, new_dashboard_name):
     dashboard_get_response = request_handler.get_request(DASHBOARD_ENDPOINT)
+
     dashboards = json.loads(dashboard_get_response.text)['result']
     dashboard_data = {}
 
@@ -61,6 +63,7 @@ def _create_dashboard(request_handler, source_dashboard_name, new_dashboard_name
         'status',
         'thumbnail_url',
         'url',
+        'roles',
         'tags' # This field was added in Superset 3.0.2
     ]
 
