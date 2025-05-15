@@ -21,7 +21,7 @@ from superset_constants import (
 @click.option(
     "-f",
     "--dashboard_file",
-    required=True,
+    required=False,
     type=click.Path(exists=True),
     help="Path to the dashboard file exported through the API",
 )
@@ -35,7 +35,7 @@ from superset_constants import (
 @click.option(
     "-n",
     "--new_dashboard_name",
-    required=True,
+    required=False,
     type=str,
     help="The name of the new derivative dashboard",
 )
@@ -61,7 +61,7 @@ def create_derived_dashboard(dashboard_file, config_file, new_dashboard_name):
         new_chart_id = create_chart(
             chart_id, dashboard_id, dataset_id, dataset_type, new_chart_name
         )
-        print(f"Chart '{new_chart_name}' created!\n")
+        #print(f"Chart '{new_chart_name}' created!\n")
 
         old_chart_id_to_dup_id_map[chart_id] = new_chart_id
         
@@ -72,11 +72,16 @@ def create_derived_dashboard(dashboard_file, config_file, new_dashboard_name):
 def _retain_chart_positions(request_handler, dashboard_id, chart_id_map):
     for key, value in chart_id_map.items():
         chart_key, chart_value = key, value
-    print(chart_key, chart_value)
+    #print(chart_key, chart_value)
     dashboard_endpoint = f"{DASHBOARD_ENDPOINT}{dashboard_id}"
-    get_dashboard_response = request_handler.get_request(dashboard_endpoint)
+    get_dashboard_response = request_handler.get_request(dashboard_endpoint, verify=False)
+
 
     dashboard_info = get_dashboard_response.json().get("result")
+
+    print('############################################################################')
+    print(dashboard_info)
+    print('############################################################################')
 
     if not dashboard_info:
         raise SystemExit(f"Dashboard info for dashboard with id {dashboard_id} not found!")
@@ -100,7 +105,7 @@ def _retain_chart_positions(request_handler, dashboard_id, chart_id_map):
             
     altered_position_json = json.dumps(position_json_dict)
     put_request_payload = _change_position_json(dashboard_info, altered_position_json)
-    put_request = request_handler.put_request(dashboard_endpoint, json=put_request_payload)
+    put_request = request_handler.put_request(dashboard_endpoint, verify=False, json=put_request_payload)
 
     return put_request
 
@@ -134,6 +139,7 @@ def _get_source_dashboard_name(dashboard_file):
     if not dashboard_name:
         raise SystemExit(f"Dashboard name not found in {dashboard_file}!")
 
+    print(dashboard_name)
     return dashboard_name
 
 
@@ -180,7 +186,7 @@ def _create_dataset_info_map(request_handler):
             '{"columns": ["id", "table_name", "datasource_type"], "page": 0, "page_size": 1000}',
         ),
     )
-    get_dataset_response = request_handler.get_request(DATASET_ENDPOINT, params=params)
+    get_dataset_response = request_handler.get_request(DATASET_ENDPOINT, verify=False, params=params)
     datasets = get_dataset_response.json().get("result")
     if not datasets:
         raise SystemExit(f"List of datasets not found! Check if Superset API has been changed.")
@@ -195,14 +201,24 @@ def _create_dataset_info_map(request_handler):
 
     return dataset_info_map
 
+def extract_value(data, key):
+  if key in data:
+    return data[key]
+  else:
+    return None
+
 
 def _create_chart_id_to_chart_info_map(
     chart_name_to_id_map, dataset_info_map, config_file):
+    print(chart_name_to_id_map)
+    print("#####")
+
     with open(config_file, "r") as input_file:
         config_map = json.load(input_file)
 
     chart_id_to_chart_info_map = {}
     for chart_name, chart_info in config_map.items():
+        #chart_id = extract_value(chart_name_to_id_map, chart_name)
         chart_id = chart_name_to_id_map[chart_name]
         dataset_name = chart_info["dataset"]
 
@@ -216,9 +232,11 @@ def _create_chart_id_to_chart_info_map(
                 f"Please check if the dataset name provided in the config file '{config_file}' is correct."
             )
 
+    
         new_chart_name = chart_info.get("new_chart_name", f"chart-{chart_id}")
         chart_id_to_chart_info_map[chart_id]["new_chart_name"] = new_chart_name
 
+    #print(chart_id_to_chart_info_map)
     return chart_id_to_chart_info_map
 
 
