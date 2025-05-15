@@ -44,6 +44,7 @@ class APIRequestHandler:
         try:
             response = http_method(self.superset_instance_url + endpoint, headers=self.headers_auth, **kwargs)
             response.raise_for_status()
+            print(response.raise_for_status())
             return response
         except requests.exceptions.HTTPError as err:
             raise SystemExit(f"\nHTTP Error: '{err}'\n" + f"Response: {response.text}")
