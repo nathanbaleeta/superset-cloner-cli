@@ -69,7 +69,7 @@ def create_chart(origin_chart_id,
                                             datasource_type, 
                                             slice_name)
 
-    create_chart_request = request_handler.post_request(CHART_ENDPOINT, json=new_chart_details)
+    create_chart_request = request_handler.post_request(CHART_ENDPOINT, json=new_chart_details, verify=False)
     chart_id = create_chart_request.json().get('id')
 
     if not chart_id:
